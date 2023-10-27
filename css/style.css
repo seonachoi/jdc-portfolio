@@ -61,6 +61,7 @@ main section {
 #home {
   background-color: greenyellow;
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 6rem;
   position: relative;
@@ -112,6 +113,7 @@ main section {
 #activity .text-list {
   font-size: 2rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 32px;
   margin-bottom: 24px;
@@ -119,6 +121,7 @@ main section {
 
 .text-list li {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 10px;
 }
@@ -130,6 +133,7 @@ main section {
 
 .img-list {
   display: flex;
+  justify-content: center;
   overflow: auto;
   padding: 10px;
   gap: 32px;
