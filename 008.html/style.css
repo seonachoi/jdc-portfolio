@@ -1,0 +1,38 @@
+/* 선택자 */
+/* 1. 전체 선택자. 전체 선택자는 모든 요소를 선택할 수 있음 */
+* {
+  /* margin: 0; */
+  /* margin은 상속이 되지 않는 속성. 부모에만 적용됨. 그래서 모든 요소에 마진을 없애려고 전체 선택자를 이용.*/
+}
+
+/* 2. 태그 선택자, 타입 선택자, 요소 선택자 */
+p {
+  color: red;
+}
+body {
+}
+a {
+  color: brown;
+}
+
+/* 3. 특정 p태그에만 css를 넣고 싶을 때 클래스 선택자. 클래스는 이름을 중복해서 사용할 수 있음. */
+
+.odd-text {
+  color: yellow;
+  background-color: black;
+}
+
+/* 4. 아이디 선택자. #~~~에서 # 붙은 게 다 아이디. id를 쓸 때 그 이름은 한 번에 하나씩. 아이디는 자바 스크립트를 할 때 많이 씀. */
+#second-text {
+  color: aqua;
+}
+
+/* 선택자 조합. div가 갖고 있는 모든 p tjsxorgkrl */
+div p {
+  text-decoration: underline;
+}
+
+/* 자식 선택자 */
+div > strong {
+  border: 3px;
+}

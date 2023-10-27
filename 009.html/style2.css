@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "LOTTERIACHAB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* box model 알아보기 */
+
+p {
+  font-family: "LOTTERIACHAB";
+  font-size: 1.8rem;
+  text-align: center;
+
+  font-weight: 100;
+  border: 5px double skyblue;
+  width: 250px;
+  height: 250px;
+
+  /* padding은 안쪽 여백 */
+
+  padding: 10px 20px 40px;
+  /* padding 값 하나만 넣으면 그 값이 상하좌우 모두 적용 */
+  /* padding 값 두 개 넣으면 상하, 좌우, 다 따로 */
+  /* padding 값 3개면 상, 좌우, 하 */
+  /* padding 값 4개면 각각 따로 */
+
+  /* padding 한쪽만 따로 주고 싶을 때 */
+  padding-left: 100px;
+
+  /* 바깥쪽여백은 margin */
+  /* margin은 요소끼리 겹치는 걸 신경써서 줘야 함. */
+
+  margin: 20px;
+  overflow: scroll;
+
+  /* box-sizing: border-box는 상속되는 속성이 아님 */
+  /* 보통 전체 선택 해주고 작업 진행 - 실무팁 */
+
+  background-color: blueviolet;
+  box-shadow: 12px 12px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  font-family: "NanumSquareNeo-Variable";
+  box-sizing: border-box;
+}
